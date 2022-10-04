@@ -11,6 +11,9 @@ Please see the outputs within the jupyter notebooks.
 Start with databaseStatistics.ipynb in the main directory for a high level understanding of the data. And, then for a deeper dive into a particular sample, look at the Google colab notebook maub_eda_v2_present_xcc_fsl.ipynb.
 Note running any cell will not work as the dataset has to be stored locally elsewhere.
 
+VIEWING PRO TIP FOR THE CURRENT REPOSITORY
+Because the notebooks themselves contain images, we recommend making a local copy of this repository and then opening the Jupyter Notebook locally.
+
 FURTHER DEVELOPMENT
 As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists. Come back again and join us on this journey!
 
