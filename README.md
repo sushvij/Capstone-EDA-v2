@@ -15,7 +15,7 @@ VIEWING PRO TIP FOR THE CURRENT REPOSITORY
 Because the notebooks themselves contain images, we recommend making a local copy of this repository and then opening the Jupyter Notebook locally.
 
 FURTHER DEVELOPMENT
-As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists. Come back again and join us on this journey!
+As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists. For example, you can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more sophisticated AI. Come back again and join us on this journey!
 
 Warmly,
 Sush, Frederick and Rajiv
