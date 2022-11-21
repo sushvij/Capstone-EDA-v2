@@ -1,4 +1,5 @@
 # _Overview & Findings:_  
+### _(Week 8 Capstone Deliverable)_  
 
 Given difficulties running the published canine object detection/classification models locally in a VM as well as on AWS, we attempted to run the authors' original `RetinaNet-CMC-MEL` model on Google Colaboratory, configuring the instance with "high RAM" (52 GB) and a backend TPU, which Colab describes as significantly faster than using "GPU" hardware acceleration. The RetinaNet model was successfully trained to completion (10 + 30 epochs) on Colab after making appropriate modifications:
 *  Py v3.7.14 (Colab default) was used.
