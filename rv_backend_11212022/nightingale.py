@@ -14,15 +14,23 @@ def upload_image():
        image = mpimg.imread(image)
        X = [image]
        X = np.asarray(X)
+       classif = np.argmax(model.predict(X)) + 5
        if (image.shape == (64,64,3)):
-          st.write(np.argmax(model.predict(X)) + 5)
+          if (classif == 5):
+             st.write('The model believes that this is a mitotic figure in metaphase.')
+          elif (classif == 6):
+             st.write('The model believes that this is a mitotic figure in anaphase-telophase')
+          elif (classif == 7):
+             st.write('The model believes that this is an atypical mitotic figure.')
+          elif (classif == 8):
+             st.write('The model believes that this is a mitotic-like figure, not a mitotic figure')
        else:
           st.write('The image dimensions were not 64 X 64 X 3.')
 
 
 def main():
 
-     st.title('Subclassification of Mitotic asnd Mitotic-Like Figures')
+     st.title('Subclassification of Mitotic and Mitotic-Like Figures')
 
      st.header('Nightingale Subclassifier')
 
@@ -39,3 +47,4 @@ def main():
 if __name__ == '__main__':
      
      main()
+
