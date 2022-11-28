@@ -3,8 +3,10 @@
 
 ## BACKGROUND
 One aspect of grading cancers in patients is to understand the number of mitotic cells. While these don't determine the diagnosis of cancer, they do influence it through grading decisions. 
+
 Counting mitotic cells is a manually intensive and subjective process. There is a lot of grey area based on the stage of mitotic development a cell may be undergoing.
-In this repository, we examine the breast tissue samples (svs files) and the related sqlite files of canines where experts have manually labelled cells as mitotic or not. Further baseline models have been developed by researchers to have an AI do this determination.
+
+In this repository, we examine the breast tissue samples (svs files) and the related sqlite files of canines where experts have manually labelled cells as mitotic or not. Further baseline models have been developed by researchers to have an AI do this determination of "mitotic" or "not mitotic" that have been the basis of our understanding.
 
 ## CURRENT REPOSITORY
 This repository currently contains our Exploratory Data Analysis. And, branches will be created to add more outputs as they are developed.
@@ -19,7 +21,7 @@ Note running any cell will not work as the dataset has to be stored locally else
 Because the notebooks themselves contain images, we recommend making a local copy of this repository and then opening the Jupyter Notebook locally.
 
 ## FURTHER DEVELOPMENT
-As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists. For example, you can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more sophisticated AI. 
+As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists. You can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more sophisticated AI. 
 
 ![Example Sub-Classification of Phases](https://github.com/sushvij/Capstone-EDA-v2/blob/main/eda_data_lineage/eda_subclassing_slide2_mitotic_figs.png)
 
