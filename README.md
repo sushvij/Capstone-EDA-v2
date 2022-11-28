@@ -11,7 +11,7 @@ In this repository, we build AI models to classify the breast tissue samples (sv
 
 ## LIMITATIONS OF MODEL, DATA AND MACHINE LEARNING PIPELINE
 
-Limitations of our model are similar to the multiple breast cancer classfication models examined in detail in [A Comprehensive Survey on Deep-Learning-Based Breast Cancer Diagnosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8656730/). Specifically, ResNet models such as ours use only patch level images to train the model vs whole slide images and experience an imbalance in classes that needs to be accounted. Additionally, they consume a lot of computing power.
+Limitations of our model are similar to the multiple breast cancer classfication models examined in detail in [A Comprehensive Survey on Deep-Learning-Based Breast Cancer Diagnosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8656730/). Specifically, ResNet models such as ours use only patch level images to train the model vs whole slide images, and experience an imbalance in classes that needs to be handled within the model. Additionally, they consume a lot of computing power.
 
 A limitation of the data is that it is canine tissue samples and ultimately the desire is to make inferences on human breast cancer diagnosis. This is a significant roadblock in generalizability which is a current and important challenge in the field of AI.
 
