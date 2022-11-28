@@ -21,7 +21,7 @@ Because the notebooks themselves contain images, we recommend making a local cop
 ## FURTHER DEVELOPMENT
 As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists. For example, you can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more sophisticated AI. 
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![Example Sub-Classification of Phases](https://github.com/sushvij/Capstone-EDA-v2/blob/main/eda_data_lineage/eda_subclassing_slide2_mitotic_figs.png)
 
 Come back again and join us on this journey!
 
