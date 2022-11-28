@@ -1,14 +1,13 @@
-
-\#0d1117 test
-
 # NIGHTINGALE - A DECISION SUPPORT SYSTEM FOR PATHOLOGISTS
 
 ## BACKGROUND
 One aspect of grading cancers in patients is to understand the number of mitotic cells. While these don't determine the diagnosis of cancer, they do influence it through grading decisions. 
 
-Counting mitotic cells is a manually intensive and subjective process. There is a lot of grey area based on the stage of mitotic development a cell may be undergoing.
+The challenge is that counting mitotic cells is a manually intensive and subjective process. Moreover a pathologist may see as many as 100-300 images a day causing significant fatigue and ultimately burnout. There is a lot of grey area based on the stage of mitotic development a cell may be undergoing.
 
-In this repository, we examine the breast tissue samples (svs files) and the related sqlite files of canines where experts have manually labelled cells as mitotic or not. Further baseline models have been developed by researchers to have an AI do this determination of "mitotic" or "not mitotic" that have been the basis of our understanding.
+Enter AI.
+
+In this repository, we build AI models to classify the breast tissue samples (svs files) and the related sqlite files of canines where experts have manually labelled cells as mitotic or not. Further [prior research](https://github.com/DeepPathology/MITOS_WSI_CCMCT) has been developed to have an AI do this determination of "mitotic" or "not mitotic"; this reasearch has been the basis of our understanding.
 
 ## CURRENT REPOSITORY
 This repository currently contains our Exploratory Data Analysis. And, branches will be created to add more outputs as they are developed.
