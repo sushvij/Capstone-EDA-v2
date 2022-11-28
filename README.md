@@ -17,6 +17,8 @@ A limitation of the data is that it is canine tissue samples and ultimately the 
 
 A limitation of our machine learning pipeline is the requirement to upload patches of a certain size (64 by 64). This places the burden on the user to ensure the data is in a particular format apriori to using our Nigthingale tool.
 
+## INSTRUCTIONS TO DEPLOY THE DEMO LOCALLY AND IN CLOUD
+
 ## CURRENT REPOSITORY
 This repository currently contains our Exploratory Data Analysis. And, branches will be created to add more outputs as they are developed.
 Given the dataset is too large for a free github repository, this repository currently focuses on jupyter notebooks with outputs. The #data lineage.jpg 
