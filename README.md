@@ -26,11 +26,11 @@ Please see the outputs within the jupyter notebooks.
 Start with databaseStatistics.ipynb in the ipynb_checkpoints directory for a high level understanding of the data. And, then for a deeper dive into a particular sample, look at the Google colab notebook maub_eda_v2_present_xcc_fsl.ipynb.
 Note running any cell will not work as the dataset has to be stored locally elsewhere.
 
-## VIEWING PRO TIP FOR THE CURRENT REPOSITORY
-Because the notebooks themselves contain images, we recommend making a local copy of this repository and then opening the Jupyter Notebook locally.
+## PRO TIP FOR THE CURRENT REPOSITORY
+Because the notebooks themselves contain large sets of images, we recommend making a local copy of this repository and then opening the Jupyter Notebook locally.
 
 ## FURTHER DEVELOPMENT
-As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists. You can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more sophisticated AI. 
+As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists, Nightingale. You can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more relevant AI, i.e. likely to be used in clinic one day, than the simplistic (mitotic vs not mitotic models) created before. 
 
 ![Example Sub-Classification of Phases](https://github.com/sushvij/Capstone-EDA-v2/blob/main/eda_data_lineage/eda_subclassing_slide2_mitotic_figs.png)
 
