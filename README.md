@@ -3,7 +3,7 @@
 ## BACKGROUND
 One aspect of grading cancers in patients is to understand the number of mitotic cells. While these don't determine the diagnosis of cancer, they do influence it through grading decisions. 
 
-The challenge is that counting mitotic cells is a manually intensive and subjective process. Moreover a pathologist may see as many as 100-300 images a day causing significant fatigue and ultimately burnout. There is a lot of grey area based on the stage of mitotic development a cell may be undergoing.
+The challenge is that counting mitotic cells is a manually intensive and subjective process. Moreover, a pathologist may see as many as 100-300 images a day causing significant fatigue and ultimately burnout. There is a lot of grey area on classification based on the stage of mitotic development a cell may be undergoing, causing further complications.
 
 Enter AI.
 
