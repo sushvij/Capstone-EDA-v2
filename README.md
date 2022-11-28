@@ -15,7 +15,7 @@ Limitations of our model are similar to the multiple breast cancer classfication
 
 A limitation of the data is that it is canine tissue samples and ultimately the desire is to make inferences on human breast cancer diagnosis. This is a significant roadblock in generalizability which is a current and important challenge in the field of AI.
 
-A limitation of our machine learning pipeline is the requirement to upload patches of a certain size (64 by 64). This places the burden on the user to ensure the data is in a particular format apriori to use our Nigthingale tool.
+A limitation of our machine learning pipeline is the requirement to upload patches of a certain size (64 by 64). This places the burden on the user to ensure the data is in a particular format apriori to using our Nigthingale tool.
 
 ## CURRENT REPOSITORY
 This repository currently contains our Exploratory Data Analysis. And, branches will be created to add more outputs as they are developed.
