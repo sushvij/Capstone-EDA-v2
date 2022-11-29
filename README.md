@@ -23,6 +23,7 @@ Get started by cloning this repository. You can do this either locally OR if you
 
 
 **RUN DEMO LOCALLY EXAMPLE**
+
 Start terminal and run the following 7 commands:
 1. mkdir frs_capstone_demo
 2. cd frs_capstone_demo
@@ -34,6 +35,7 @@ Start terminal and run the following 7 commands:
 8. copy paste the URL provided into a web browser window to run the demo
 
 **RUN DEMO IN THE CLOUD EXAMPLE**
+
 Establish an instance in the cloud and download the key. In our case, we downloaded "frs_nightingale.prem".
 In a terminal, run the following commands:
 1. chmod 600 frs_nightingale.pem
@@ -56,7 +58,7 @@ This repository currently contains our (1) Exploratory Data Analysis, (2) Baseli
 
 Given the dataset is too large for a free github repository, this repository currently focuses on selected patches of data and jupyter notebooks with outputs. 
 
-***Exploratory Data Analysis (folder eda_data_lineage)
+***Exploratory Data Analysis (folder eda_data_lineage)***
 
 The [data lineaage diagram](https://github.com/sushvij/Capstone-EDA-v2/blob/main/eda_data_lineage/data%20lineage.jpg) contains the details of the sources and types of data of the entire dataset. 
 
@@ -64,13 +66,13 @@ Start with databaseStatistics.ipynb in this folder for a high level understandin
 
 Note re-running any cell for this background material will not work as the dataset has to be stored locally elsewhere. If you would like to go get the entire dataset, it can be found [here](https://github.com/DeepPathology/MITOS_WSI_CCMCT) under the WSI folder.
 
-***Baseline Models***
+***Baseline Model (folders baseline_model and fsl_colab_base_model)***
 
 There have been multiple two stage models deployed by various researchers on this database. The folders baseline_model and fsl_colab_base_model replicate these models.
 
-***Our Model and It's Deployment***
+***Our Model and It's Deployment (folders with rv)***
 
-For our models and deployments, go to folder rv_backend. All data and models here will run, and the demo using these models can be deployed by executing the commands outlined in the previous instructions section.
+For our models and deployments, go to folder rv_backend_11212022. All data and models here will run, and the demo using these models can be deployed by executing the commands outlined in the previous instructions section.
 
 ## PRO TIP FOR THE CURRENT REPOSITORY
 Because the notebooks themselves contain large sets of images, we recommend making a local copy of this repository and then opening the Jupyter Notebook locally.
