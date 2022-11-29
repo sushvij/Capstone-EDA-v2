@@ -19,6 +19,10 @@ A limitation of our machine learning pipeline is the requirement to upload patch
 
 ## INSTRUCTIONS TO DEPLOY THE DEMO LOCALLY AND IN CLOUD
 
+Get started by cloning this repository. You can do this either locally OR if you prefer not to use local resources, first create an instance on the cloud, and then ssh into it. Here is an example of the series of commands we use to run the demo in both cases. This is a guideline you may choose to use.
+
+**RUN DEMO LOCALLY**
+
 ## CURRENT REPOSITORY
 This repository currently contains our Exploratory Data Analysis. And, branches will be created to add more outputs as they are developed.
 Given the dataset is too large for a free github repository, this repository currently focuses on jupyter notebooks with outputs. The #data lineage.jpg 
