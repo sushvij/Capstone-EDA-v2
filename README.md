@@ -70,15 +70,19 @@ Note re-running any cell for this background material will not work as the datas
 
 There have been multiple two stage models deployed by various researchers on this database. The folders baseline_model and fsl_colab_base_model replicate these models.
 
-***Our Model and It's Deployment (folders with rv)***
+***Our Model and It's Deployment (folders with rv and fsl_subclassing)***
+
+The significant contribution of our work is that an expert (licensed doctor) provided sub-classifications which can be found in fsl_subclassing. This enabled the model to predict classes that are relevant to the real world. As such a model is fine tuned with this training data, it can help eliminate the tedius and faulty process for pathologists. Thereby saving resouces and having a useful clinical implementation. 
 
 For our models and deployments, go to folder rv_backend_11212022. All data and models here will run, and the demo using these models can be deployed by executing the commands outlined in the previous instructions section.
 
 ## PRO TIP FOR THE CURRENT REPOSITORY
 Because the notebooks themselves contain large sets of images, we recommend making a local copy of this repository and then opening the Jupyter Notebook locally.
 
-## FURTHER DEVELOPMENT
-As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists, Nightingale. Our application will be ultimately deployed at **www.mitosisdx.com**. You can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more relevant AI, i.e. likely to be used in clinic one day, than the simplistic (mitotic vs not mitotic models) created before. 
+## KEY CONTRIBUTION
+As the team progresses you will find more branches created from this repository containing various AI models and developmental work towards a decision support system for pathologists, Nightingale. Our application will be ultimately deployed at **www.mitosisdx.com**. 
+
+You can get a sneak peek at how our resident expert, Dr. Frederick, is reclassifying the mitotic figures by stages to build a more relevant AI, i.e. likely to be used in clinic one day, than the simplistic (mitotic vs not mitotic models) created before. 
 
 ![Example Sub-Classification of Phases](https://github.com/sushvij/Capstone-EDA-v2/blob/main/eda_data_lineage/eda_subclassing_slide2_mitotic_figs.png)
 
