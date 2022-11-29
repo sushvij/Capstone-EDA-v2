@@ -21,7 +21,34 @@ A limitation of our machine learning pipeline is the requirement to upload patch
 
 Get started by cloning this repository. You can do this either locally OR if you prefer not to use local resources, first create an instance on the cloud, and then ssh into it. Here is an example of the series of commands we use to run the demo in both cases. This is a guideline you may choose to use.
 
-**RUN DEMO LOCALLY**
+
+**RUN DEMO LOCALLY EXAMPLE**
+Start terminal and run the following 7 commands:
+1. mkdir frs_capstone_demo
+2. cd frs_capstone_demo
+3. git clone https://github.com/sushvij/Capstone-EDA-v2.git
+4. cd Capstone-EDA-v2
+5. cd rv_backend_11212022
+6. docker build -t streamlit .
+7. docker run -p 8501:8501 streamlit
+8. copy paste the URL provided into a web browser window
+
+**RUN DEMO IN THE CLOUD EXAMPLE**
+Establish an instance in the cloud and download the key. In our case, we downloaded "frs_nightingale.prem".
+In a terminal, run the following commands:
+chmod 600 frs_nightingale.pem
+ssh -i frs_nightingale.pem ubuntu@ec2-18-236-239-181.us-west-2.compute.amazonaws.com (note the address after @ is the public DNS of our instance)
+(now we are in our cloud instance Ubuntu in our case) **ubuntu@ip-172-31-3-249:~$** git clone https://github.com/sushvij/Capstone-EDA-v2.git
+**ubuntu@ip-172-31-3-249:~$** repeat commands 4-8
+
+Pro-tips: 
+1. You may need to install docker in the cloud install. The command is ** sudo snap docker install **
+2. If you have any permission issues, run the command with a sudo in front of it. This may be the case for commands 6 and 7 while using the cloud.
+
+Once you are in the URL, you can load an image patch of size 64 by 64 and have the model predict not only let you know if the cell is mitotic or not but also predict the phase of mitosis. You will notice the clear English explanation provided by our expert, Dr. Frederick Lee, as to why the model is selecting the said classification for the image.
+
+Here are a couple of different slide image examples to get you started - 20.png, 5130.png, and 8229.png can be selected from the folder **Capstone-EDA-v2/rv_backend_11212022/patchExtraction_final**
+
 
 ## CURRENT REPOSITORY
 This repository currently contains our Exploratory Data Analysis. And, branches will be created to add more outputs as they are developed.
