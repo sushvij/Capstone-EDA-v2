@@ -44,8 +44,8 @@ In a terminal, run the following commands:
 4. **ubuntu@ip-172-31-3-249:~$** repeat commands 4-8
 
 **Pro-tips:** 
-1. You may need to install docker in the cloud install. The command is ** sudo snap docker install **
-2. If you have any permission issues, run the command with a sudo in front of it. This may be the case for commands 6 and 7 while using the cloud.
+1. You may need to install docker. The command is **sudo snap docker install**
+2. If you have any permission issues, run the command with **sudo** in front of it. This may particularly be the case for commands 6 and 7.
 
 Once you are in the URL, you can load an image patch of size 64 by 64 and have the model predict not only let you know if the cell is mitotic or not but also predict the phase of mitosis. You will notice the English explanation provided by our expert, Dr. Frederick Lee, as to why the model is selecting the said classification for the image. This is our important contribution to this project.
 
