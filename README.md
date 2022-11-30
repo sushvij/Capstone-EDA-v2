@@ -32,7 +32,7 @@ Start terminal and run the following 7 commands:
 5. cd rv_backend_11212022
 6. docker build -t streamlit .
 7. docker run -p 8501:8501 streamlit
-8. copy paste the URL provided into a web browser window to run the demo
+8. click on the link or copy paste the URL provided into a web browser window to run the demo
 
 **RUN DEMO IN THE CLOUD EXAMPLE**
 
