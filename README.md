@@ -40,7 +40,7 @@ Establish an instance in the cloud and download the key. In our case, we downloa
 In a terminal, run the following commands:
 1. chmod 600 frs_nightingale.pem
 2. ssh -i frs_nightingale.pem ubuntu@ec2-18-236-239-181.us-west-2.compute.amazonaws.com (note the address after @ is the public DNS of our instance)
-3. (now we are in our cloud instance Ubuntu in our case) **ubuntu@ip-172-31-3-249:~$** git clone https://github.com/sushvij/Capstone-EDA-v2.git
+3. (now we are in our cloud instance Ubuntu) **ubuntu@ip-172-31-3-249:~$** git clone https://github.com/sushvij/Capstone-EDA-v2.git
 4. **ubuntu@ip-172-31-3-249:~$** repeat commands 4-8 (check pro-tips below in case of issues)
 
 **Pro-tips:** 
