@@ -41,11 +41,11 @@ In a terminal, run the following commands:
 1. chmod 600 frs_nightingale.pem
 2. ssh -i frs_nightingale.pem ubuntu@ec2-18-236-239-181.us-west-2.compute.amazonaws.com (note the address after @ is the public DNS of our instance)
 3. (now we are in our cloud instance Ubuntu in our case) **ubuntu@ip-172-31-3-249:~$** git clone https://github.com/sushvij/Capstone-EDA-v2.git
-4. **ubuntu@ip-172-31-3-249:~$** repeat commands 4-8
+4. **ubuntu@ip-172-31-3-249:~$** repeat commands 4-8 (check pro-tips below in case of issues)
 
 **Pro-tips:** 
 1. You may need to install docker. The command is **sudo snap docker install**
-2. If you have any permission issues, run the command with **sudo** in front of it. This may particularly be the case for commands 6 and 7.
+2. If you have any permission issues, run the command with **sudo** in front of it. This may particularly be the case for commands 6 and 7 while accesing through the cloud.
 
 Once you are in the URL, you can load an image patch of size 64 by 64 and have the model predict not only let you know if the cell is mitotic or not but also predict the phase of mitosis. You will notice the English explanation provided by our expert, Dr. Frederick Lee, as to why the model is selecting the said classification for the image. This is our important contribution to this project.
 
