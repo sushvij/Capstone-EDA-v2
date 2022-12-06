@@ -43,6 +43,8 @@ In a terminal, run the following commands:
 3. (now we are in our cloud instance Ubuntu) **ubuntu@ip-172-31-3-249:~$** git clone https://github.com/sushvij/Capstone-EDA-v2.git
 4. **ubuntu@ip-172-31-3-249:~$** repeat commands 4-8 (check pro-tips below in case of issues)
 
+Alternatively, go directly to [Hugging Face Deployment](https://huggingface.co/spaces/rajivvelury/nightingale).
+
 **Pro-tips:** 
 1. You may need to install docker. The command is **sudo snap docker install**
 2. If you have any permission issues, run the command with **sudo** in front of it. This may particularly be the case for commands 6 and 7 while accesing through the cloud.
