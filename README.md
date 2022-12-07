@@ -1,5 +1,10 @@
 # NIGHTINGALE - A DECISION SUPPORT SYSTEM FOR PATHOLOGISTS
 
+## SUMMARY
+Every two minutes a woman in the US is diagnosed with breast cancer. This is a tremedous burden, economic and otherwise, at the patient, family and societal level. Even with survival, there are downstream complications and impact on quality of life. Our motiviation is to improve the breast cancer diagnostic workflows, specifically the pathology workflows, by enhancing the information available to the pathologist. State of the art AI/ML techniques use object detection on whole slide images to quickly identify potential hot spots. A second stage counter, i.e. two class classifier, for dividing cells (mitotic or not-mitotic) has also been added in the literature. This project takes the first big leap from AI/ML's role of reducing turnaround time in diagnostic workflow, to increasing utility (in pathology reports and outputs). We do this by going beyond two classes to finding the abnormal sub-class images using a VGG16 model and deploying an application [mitosisdx.com](mitosisdx.com) that both identifies the abonormal cells and provides usable pathologic explanations. 
+
+
+
 ## BACKGROUND
 One aspect of grading cancers in patients is to understand the number of mitotic cells. While these don't determine the diagnosis of cancer, they do influence it through grading decisions. 
 
