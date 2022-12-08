@@ -1,7 +1,7 @@
 ## Subclassifying Mitotic Figures
 ### Frederick Lee, M.D., Ph.D.
 
-This folder contains the run Jupyter notebooks that show all 984 image patches (64 × 64 pixels) that were:
+This folder contains the Jupyter notebooks that show all 984 image patches (64 × 64 pixels) that were:
 
 - Extracted from Aubreville _et al._'s whole slide images (WSI's) of canine breast tumors (published training Slides #2, 3, 5, 7, and 8); and,
 - Hand-labeled into one of the 4 subclasses as described below.
