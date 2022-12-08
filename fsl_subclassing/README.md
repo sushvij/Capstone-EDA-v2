@@ -46,4 +46,4 @@ This folder contains the Jupyter notebooks that show all 984 image patches (64 �
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-\*Modified from Donovan _et al.__Mitotic Figures—Normal, Atypical and Imposters: A Guide to Identification. Veterinary Pathology_ **58** (2):243-257, 2021.
+\*Modified from Donovan _et al._ ___Mitotic Figures—Normal, Atypical and Imposters: A Guide to Identification. Veterinary Pathology___ **58** (2):243-257, 2021.
