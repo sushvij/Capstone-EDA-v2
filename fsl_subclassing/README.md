@@ -1,6 +1,5 @@
 ## Subclassifying Mitotic Figures
-
-### Frederick Lee, M.D.
+### Frederick Lee, M.D., Ph.D.
 
 This folder contains the run Jupyter notebooks that show all 984 image patches (64 × 64 pixels) that were:
 
